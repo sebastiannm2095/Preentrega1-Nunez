@@ -6,7 +6,7 @@ function solicitarNumero(mensaje, campo) {
         if (isNaN(parseFloat(valor))) {
             alert("Por favor, ingrese un valor numérico válido para " + campo + ".");
         } else {
-            valor = parseFloat(valor); // Convierte el valor a número después de validar
+            valor = parseFloat(valor); // Convierte el valor a número después de validar los datos
         }
     } while (isNaN(valor)); // Repite el prompt si el valor no es numérico
     return valor;
